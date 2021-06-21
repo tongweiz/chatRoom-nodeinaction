@@ -38,6 +38,7 @@ $(document).ready(function() {
 
     socket.on('joinResult', function(result){
         $('#room').text(result.room);
+        $('#user-name').text('Your name is ' + result.name);
         $('#messages').append(divSystemContentElement('Room Changed.'));
     });
 

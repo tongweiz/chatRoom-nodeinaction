@@ -18,6 +18,11 @@ a {
     margin-bottom: 1em;
 }
 
+#user-name {
+    background-color: #007FFF;
+    margin-bottom: 1em;
+}
+
 #room-list {
     float: right;
     width: 100px;
