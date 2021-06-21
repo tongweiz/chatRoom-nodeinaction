@@ -30,6 +30,7 @@ $(document).ready(function() {
         let message;
         if(result.success){
             message = 'You are now known as ' + result.name + '.';
+            $('#user-name').text('Your name is ' + result.name)
         } else {
             message = result.message;
         }
